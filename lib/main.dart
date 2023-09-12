@@ -15,6 +15,7 @@ import 'package:praktikum5/ui_view/signup.dart';
       home: HomePage(),
     );
   }
+  
 }
    class HomePage extends StatelessWidget { 
      @override
