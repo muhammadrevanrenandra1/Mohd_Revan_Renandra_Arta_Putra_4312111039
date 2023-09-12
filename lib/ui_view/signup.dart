@@ -52,7 +52,6 @@ border: InputBorder.none
 ),
 SizedBox(height: 20,),
 
-
 MaterialButton(
 padding: EdgeInsets.all(20), 
 minWidth: 250,
