@@ -15,6 +15,7 @@ class PageTwo extends StatelessWidget {
          child: Text("Kembali Menggunakan Pop"),
          onPressed: () {
           Navigator.pop(context);
+         
          },
          )
         ],
