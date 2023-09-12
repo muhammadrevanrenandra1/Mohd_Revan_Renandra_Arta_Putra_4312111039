@@ -10,6 +10,9 @@ theme: ThemeData(
 primarySwatch: Colors.blue,
 ),
 home: MyHomePage(),
+routes: <String, WidgetBuilder>{
+'/page2' : (BuildContext context) => PageTwo(),
+}
 );
 }
 }
@@ -28,15 +31,9 @@ MaterialButton(
 color: Colors.yellow, 
 child: Text("Page 2"), 
 onPressed: () {
-// dibuat berikutnya
-Navigator.push(context, MaterialPageRoute( 
-builder: (context) => PageTwo()
-)
-);
+Navigator.of(context).pushNamed('/page2');
 },
-),
-],
 )
-);
+]));
 }
 }
